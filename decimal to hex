@@ -1,5 +1,7 @@
 //Converts string with binary number to hexadecimal
-//NightmareScript#7 challenge from codewars
+//First try on NightmareScript#7 challenge from codewars.com fails on:
+//-16384 bit test
+//way too many characters used in code
 
 
 $=(_,$$=+[],//iterator
