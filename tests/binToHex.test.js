@@ -23,7 +23,6 @@ describe('Testing binary string to hexadecimal string function', ()=>{
             while(input.length%4){
                 input = '0' + input
             }
-            console.log(input)
             const expected = parseInt(input, 2).toString(16)
             const result = $(input)
 
