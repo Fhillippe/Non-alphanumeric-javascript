@@ -19,11 +19,11 @@ describe('Testing binary string to hexadecimal string function', ()=>{
     test('Testing 20 random inputs',()=>{
         for(i=0; i<20; i++){
             let input = Math.floor(Math.random()*100).toString(2)
-            //add leading zero
-            const inputLength =  input.length
-                for(x=0; x<(4 - inputLength%4); x++){
-                    input = '0' + input
-                }
+            //add leading zeros
+            while(input.length%4){
+                input = '0' + input
+            }
+            console.log(input)
             const expected = parseInt(input, 2).toString(16)
             const result = $(input)
 
