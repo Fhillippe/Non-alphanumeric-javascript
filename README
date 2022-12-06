@@ -1,7 +1,11 @@
 Idea of this repositroy came from Nightmare script challenges from codewars.com made by "Simpe Rick".
 The rules are to not use any letters or numbers in code and to follow strict code length requirements,
 I have highlighted the length limit at the top of alghorithms files.
-I have added jest test suite, after cloning repositorium it can be runned by  npm test.
+To see jest tests run:
+-clone repositorium
+-open terminal inside repositorium
+  -npm install
+  -npm test
 
 Software was developed using:
 node v16.15.1
